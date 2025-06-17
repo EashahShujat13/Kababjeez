@@ -4,12 +4,12 @@ import instagram from '../assets/icons/instagram.jpeg'
 
 function Navbar() {
   return (
-    <div className="flex justify-between items-center px-6 py-2 border-b-3 border-dashed border-gray-600 text-gray-100 fixed top-0 w-full bg-black z-50">
+    <div className="flex justify-between items-center px-6 py-2 border-b-1 border-dashed border-gray-400 text-gray-100 fixed top-0 w-full bg-black z-50">
       
       {/* 👉 RIGHT SIDE (Icons) */}
       <div className="flex gap-5  font">
         <p>phone : 021 111 666 111</p>
-        <p>mail : marketing@kababjeez.com</p>
+        <p>mail : marketing@kababjees.com</p>
       </div>
      
 
@@ -22,4 +22,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
