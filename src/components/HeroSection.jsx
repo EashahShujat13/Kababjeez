@@ -8,7 +8,6 @@ function HeroSection() {
     
     <section className="relative h-screen ">
        < BackgroundVideo/>
-      
         <div className="relative z-10">
         <MainNavbar/>
         <Navbar/>
