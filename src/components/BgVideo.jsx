@@ -1,7 +1,7 @@
 import React from 'react';
 import bgVideo from '../assets/video/bgVideo.mp4'
 
-export default function BackgroundVideo() {
+function BackgroundVideo() {
   return (
     <>
     <video
@@ -25,3 +25,4 @@ export default function BackgroundVideo() {
     </>
   );
 }
+export default BackgroundVideo;

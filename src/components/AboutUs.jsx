@@ -49,4 +49,3 @@ function AboutUs() {
 }
 
 export default AboutUs;
-b

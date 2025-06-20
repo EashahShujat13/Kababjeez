@@ -1,6 +1,7 @@
 
 import React from 'react'
 import HeroSection from './components/HeroSection'
+import Specialities from './components/specialities'
 import BankDiscount from './components/BankDiscount'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   <>
   <HeroSection/>
   <BankDiscount/>
+  <Specialities/>
   </>
   )
 }
