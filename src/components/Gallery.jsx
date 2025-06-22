@@ -1,16 +1,10 @@
-import React from 'react'
-import CarouselAuto from './GalleryCorousel'
-
+import   CorouselAuto from './GalleryCorousel'
 function Gallery() {
   return (
-   <>
-   <section className='relative h-screen bg-[#1C1C1C]'>
-    <div className='relative z-10'>
-     <CarouselAuto/>
-    </div>
-   </section>
-   </>
-  )
+    <section className="relative min-h-screen bg-[#1C1C1C]">
+      <div className="relative z-10">
+     < CorouselAuto/>      </div>
+    </section>
+  );
 }
-
-export default Gallery
+export default Gallery;
